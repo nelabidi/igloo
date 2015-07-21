@@ -13,6 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="xigloo">
+      <UniqueIdentifier>{da494a99-e013-430f-9dba-c12b72b0610b}</UniqueIdentifier>
+      <Extensions>x*.h</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,10 +28,22 @@
     <ClCompile Include="xigloo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="new_syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\igloo\core\xregistration.h">
+      <Filter>xigloo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\igloo\xigloo.h">
+      <Filter>xigloo</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

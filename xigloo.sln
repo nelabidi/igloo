@@ -5,6 +5,17 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xigloo", "xigloo\xigloo.vcxproj", "{41134248-A9B7-4FD8-8DD8-BD6168483283}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "igloo", "igloo", "{71061657-8C9D-4FC2-AD4C-2384FEA99F4B}"
+	ProjectSection(SolutionItems) = preProject
+		igloo\core\alternativeregistrationaliases.h = igloo\core\alternativeregistrationaliases.h
+		igloo\igloo.h = igloo\igloo.h
+		igloo\igloo_alt.h = igloo\igloo_alt.h
+		igloo\igloo_framework.h = igloo\igloo_framework.h
+		igloo\core\registration.h = igloo\core\registration.h
+		igloo\xigloo.h = igloo\xigloo.h
+		igloo\core\xregistration.h = igloo\core\xregistration.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32

@@ -81,10 +81,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="new_syntax.cpp" />
     <ClCompile Include="Sample.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="xigloo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\igloo\core\xregistration.h" />

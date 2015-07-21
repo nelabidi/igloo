@@ -29,13 +29,13 @@
 
 #define XIGLOO_PRIVATE_GENERATE_CONTEXTREGISTRAR(contextId,contextName,baseContextName) \
 struct contextId; \
-struct ContextRegistrar_##contextId \
+static struct ContextRegistrar_##contextId \
   { \
   ContextRegistrar_##contextId() \
     { \
     igloo::TestRunner::RegisterContext<igloo::ContextRunner<baseContextName, contextId> >(contextName, __FILE__, __LINE__); \
     } \
-    } contextId##_IglooRegistrar;
+    } contextId##_Registrar;
 
 #define XIGLOO_CONTEXT_REGISTRATION(contextName,contextId) \
     XIGLOO_PRIVATE_GENERATE_CONTEXTREGISTRAR(contextId,contextName, void) \

@@ -16,5 +16,3 @@ describe("A suite name can have spaces in it ")
     }
 
 };
-
-

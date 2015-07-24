@@ -17,6 +17,9 @@
       <UniqueIdentifier>{da494a99-e013-430f-9dba-c12b72b0610b}</UniqueIdentifier>
       <Extensions>x*.h</Extensions>
     </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{835b3abf-69f5-44d6-b665-30df89a756ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -33,6 +36,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\describe_it_macro.cpp">
+      <Filter>tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

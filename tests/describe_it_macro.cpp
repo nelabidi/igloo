@@ -4,7 +4,6 @@
 using namespace igloo;
 
 
-
 describe("an entity")
 {
     bool its_true;
@@ -13,7 +12,6 @@ describe("an entity")
     {
         its_true = true;
     }
-
 
     it("should do something")
     {

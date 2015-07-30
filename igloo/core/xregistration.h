@@ -31,11 +31,12 @@
 struct contextId; \
 static struct ContextRegistrar_##contextId \
   { \
-  ContextRegistrar_##contextId() \
+    ContextRegistrar_##contextId(char * name)\
     { \
-    igloo::TestRunner::RegisterContext<igloo::ContextRunner<baseContextName, contextId> >(contextName, __FILE__, __LINE__); \
+        igloo::TestRunner::RegisterContext<igloo::ContextRunner<baseContextName, contextId> >(name, __FILE__, __LINE__); \
     } \
-    } contextId##_Registrar;
+    }contextId##_Registrar(contextName);
+
 
 #define XIGLOO_CONTEXT_REGISTRATION(contextName,contextId) \
     XIGLOO_PRIVATE_GENERATE_CONTEXTREGISTRAR(contextId,contextName, void) \

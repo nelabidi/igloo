@@ -31,7 +31,7 @@
 struct contextId; \
 static struct ContextRegistrar_##contextId \
   { \
-    ContextRegistrar_##contextId(char * name)\
+    ContextRegistrar_##contextId(const char * name)\
     { \
         igloo::TestRunner::RegisterContext<igloo::ContextRunner<baseContextName, contextId> >(name, __FILE__, __LINE__); \
     } \

@@ -2,7 +2,7 @@ language: cpp
 sudo: false
 compiler:
 - gcc
-- clang
+#- clang
 before_script:
 - BUILD_DIR=`pwd`/builds
 - mkdir -p ${BUILD_DIR}

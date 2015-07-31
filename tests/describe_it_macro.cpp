@@ -3,6 +3,7 @@
 #include <igloo/xigloo.h>
 using namespace igloo;
 
+namespace {
 
 describe("an entity")
 {
@@ -44,3 +45,5 @@ describe("an entity")
         };
     };
 };
+
+} // end namespace

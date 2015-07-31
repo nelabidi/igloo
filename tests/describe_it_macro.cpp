@@ -47,3 +47,4 @@ describe("an entity")
 };
 
 } // end namespace
+
